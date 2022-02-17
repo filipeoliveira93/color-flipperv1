@@ -7,7 +7,7 @@ const alert = document.getElementById("alert");
 copyBtn.forEach((btn) => {
 	btn.addEventListener("click", (e) => {
 		const copycolor = e.currentTarget.parentElement.querySelector("input");
-		console.log(copycolor.value);
+
         navigator.clipboard.writeText(copycolor.value);
         alert.classList.add("alert-show");
         setTimeout(() => {

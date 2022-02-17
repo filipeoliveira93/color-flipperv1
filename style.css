@@ -1,0 +1,134 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(18, 26, 48);
+	min-height: 100vh;
+	font-family: "Roboto", sans-serif;
+	transition: all 0.8s ease;
+
+	
+}
+
+.nav {
+	/* background: green; */
+	width: 100%;
+	/* height: 100px; */
+	display: flex;
+	justify-content: space-evenly;
+	text-align: center;
+	font-size: 1.2em;
+	align-items: center;
+	flex-direction: row;
+	padding: 0.5rem 1rem;
+	max-height: 40px;
+	font-size: 1.5em;
+
+}
+
+.center-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 20rem;
+	height: 14rem;
+	font-weight: bold;
+	font-size: 1rem;
+	;
+}
+
+.button {
+	height: 30px;
+	width: 100px;
+	border-radius: 20px;
+	margin: 0.5rem;
+	color: #4a4a4a
+
+}
+
+
+.neomorphism {
+	-webkit-border-radius: 50px;
+	border-radius: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-box-shadow: 12px 12px 32px #d9d9d9, -12px -12px 32px #ffffff;
+	box-shadow: 12px 12px 32px #d9d9d9, -12px -12px 32px #ffffff;
+} 
+
+
+.input {
+	width: 150px;
+	height: 30px;
+
+	border: none;
+	color: #4a4a4a;
+	
+
+}
+
+
+
+.claymorphism {
+	backdrop-filter: blur(4px); 
+	background-color: rgba(255, 255, 255, 1); 
+	border-radius: 23px; 
+	box-shadow: inset 1px 5px 28px 0px rgba(145, 192, 255, 0.5),
+	inset -1px -8px 16px 0px rgba(145, 192, 255, 0.6),
+	inset 0px 11px 8px 0px rgb(255, 255, 255);
+}
+
+.copy {
+	background: url(./fontawesome/copy.svg) no-repeat;
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-position: center;
+	border: 1px solid rgba(1, 1, 1, 0.3);
+	border-radius: 10%;
+}
+
+.color-info {
+	height: 30px;
+	display: flex;
+	/* background-color: red; */
+	align-items: center;
+	justify-content: space-around;
+	vertical-align: middle;
+
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+.alert {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80px;
+	height: 10px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 20px;
+	padding: 1rem;
+	font-size: 1em;
+	color: #ffff;
+	text-align: center;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 100;
+	
+}
+
+.alert-show {
+	display: flex;
+
+}
